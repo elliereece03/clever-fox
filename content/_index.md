@@ -8,6 +8,82 @@ design:
   spacing: "6rem"
 
 sections:
+  - block: slider
+    content:
+      slides:
+      - title: QuMAP - Quantum Materials and Astroparticle Physics
+        content: 'See what we are working on...'
+        align: center
+        background:
+          image:
+            filename: coffee.jpg
+            filters:
+              brightness: 0.7
+          position: right
+          color: '#666'
+
+      - title: Dark Matter Detection
+        content: 'INSERT INFO HERE'
+        align: left
+        background:
+          image:
+            filename: coffee.jpg
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#555'
+
+        
+      - title: Dark Matter Detection
+        content: 'INSERT INFO HERE'
+        align: left
+        background:
+          image:
+            filename: coffee.jpg
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#555'
+
+        
+      - title: Superfluids
+        content: 'INSERT INFO HERE'
+        align: right
+        background:
+          image:
+            filename: coffee.jpg
+            filters:
+              brightness: 0.5
+          position: center
+          color: '#333'
+        link:
+          icon: search
+          icon_pack: fas
+          text: Find out more
+          url: '#contact'
+        
+      - title: AI Designed Molecules
+        content: 'INSERT INFO HERE'
+        align: left
+        background:
+          image:
+            filename: coffee.jpg
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#555'
+
+    design:
+      # Slide height is automatic unless you force a specific height (e.g. '400px')
+      slide_height: ''
+      is_fullscreen: true
+      # Automatically transition through slides?
+      loop: false
+      # Duration of transition between slides (in ms)
+      interval: 2000
+
+
+
   - block: hero
     content:
       title: Build Your Landing Pages with Hugo Blox
